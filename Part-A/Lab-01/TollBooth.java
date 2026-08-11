@@ -1,4 +1,10 @@
-import java.util.Scanner;
+
+/*(a) Define a record Vehicle(String number, String type). 
+(b) In main, keep a running toll total and three counters (bike, car, truck). 
+(c) Loop until the user types “done” for the number: build a Vehicle, use a switch 
+expression on its type for the toll (bike→20, car→50, truck→150), add to the total, 
+and increment that type’s counter. 
+import java.util.Scanner;*/
 
 public class TollBooth {
 
