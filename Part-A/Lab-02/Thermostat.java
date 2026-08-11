@@ -1,3 +1,14 @@
+/*(a) Create class Thermostat with private String location, private int temperature, private 
+static final int MIN=16 and MAX=30, and private static int activeCount=0. 
+(b) Constructor(location, startTemp): store location; set temperature to startTemp if it is 
+within MIN..MAX else 22; increment activeCount. 
+(c) Constructor(location): chain with this(location, 22). 
+(d) raise(): if temperature < MAX add 1, else print “Already at maximum (30)”. 
+(e) lower(): if temperature > MIN subtract 1, else print “Already at minimum (16)”. 
+(f) Add getTemperature() (no setter) and static getActiveCount(). 
+(g) In main: create two thermostats, call raise() 10 times then lower() 20 times in loops 
+(printing the temperature each time), then print getActiveCount(). */
+
 public class Thermostat {
     private String location;
     private int temperature;
